@@ -7,12 +7,8 @@ export default function Header() {
     <div className="mb-1">
       {/* ===top header=== */}
       <div className="flex justify-between items-center py-4">
-        <img
-          src="/public/sleepingpils_05.png"
-          alt=""
-          className="max-h-[30px]"
-        />
-        <img src="/public/head_btc.png" alt="" />
+        <img src="/sleepingpils_05.png" alt="" className="max-h-[30px]" />
+        <img src="/head_btc.png" alt="" />
         <div className="flex gap-2">
           <Button radius="none" className="bg-second text-white">
             (0) My Cart
